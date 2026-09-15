@@ -1,0 +1,32 @@
+{
+  "instance_id": {
+    "sensitive": false,
+    "type": "string",
+    "value": "i-06512f656da476a57"
+  },
+  "instance_public_dns": {
+    "sensitive": false,
+    "type": "string",
+    "value": "ec2-54-242-21-119.compute-1.amazonaws.com"
+  },
+  "instance_public_ip": {
+    "sensitive": false,
+    "type": "string",
+    "value": "54.242.21.119"
+  },
+  "security_group_id": {
+    "sensitive": false,
+    "type": "string",
+    "value": "sg-0ce3624ed1dd282b1"
+  },
+  "subnet_id": {
+    "sensitive": false,
+    "type": "string",
+    "value": "subnet-0bba3df9483fe7811"
+  },
+  "vpc_id": {
+    "sensitive": false,
+    "type": "string",
+    "value": "vpc-09de6160fabecfb88"
+  }
+}
