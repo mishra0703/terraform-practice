@@ -1,0 +1,12 @@
+// This is what we got when we hit `terraform apply` from any device to create a infrastructure 
+// Basically Our data got stored as a database item , 
+
+{
+  "ID": "3837266f-ac0a-1388-0b5c-5dafc534c914",
+  "Operation": "OperationTypeApply",
+  "Info": "",
+  "Who": "DESKTOP-RS9RRCR\\Prem@DESKTOP-RS9RRCR",
+  "Version": "1.15.8",
+  "Created": "2026-09-17T07:57:04.0350335Z",
+  "Path": "remote-bucket-by-prem/terraform.tfstate"
+}
