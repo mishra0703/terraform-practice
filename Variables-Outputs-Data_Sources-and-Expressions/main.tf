@@ -100,7 +100,7 @@ resource "aws_instance" "terra-server" {
 #  ami                         = "ami-0b6d9d3d33ba97d99"       # <- Hardcoded
   ami                         = data.aws_ami.amazon_linux.id   # <- Dynamic, not hardcoded
 # instance_type               = var.instance_type
-  instance_type = var.environment == "prod" ? "t3.small" : "t2.micro"
+  instance_type = var.environment == "prod" ? "t3.small" : "t2.micro"     # ternary operator (condition ? true_val : false_val) 
   associate_public_ip_address = "true"
   subnet_id                   = aws_subnet.public.id
   vpc_security_group_ids      = [aws_security_group.vpc_sg.id]
